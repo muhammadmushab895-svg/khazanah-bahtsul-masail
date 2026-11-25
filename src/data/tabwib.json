@@ -1,0 +1,398 @@
+[
+  {
+    "id": "01",
+    "parent_id": null,
+    "level": 1,
+    "kode": "01",
+    "nama_id": "Al-'Ibadat (Ibadah)",
+    "nama_ar": "كتاب العبادات",
+    "slug": "al-ibadat",
+    "deskripsi": "Thaharah, Shalat, Jenazah, Zakat, Puasa, Haji, Umrah, Qurban, dan Aqiqah."
+  },
+  {
+    "id": "01.01",
+    "parent_id": "01",
+    "level": 2,
+    "kode": "01.01",
+    "nama_id": "Thaharah (Bersuci & Najis)",
+    "nama_ar": "باب الطهارة",
+    "slug": "thaharah",
+    "deskripsi": "Hukum air, wudhu, mandi wajib, tayamum, haid, dan persoalan najis."
+  },
+  {
+    "id": "01.02",
+    "parent_id": "01",
+    "level": 2,
+    "kode": "01.02",
+    "nama_id": "Shalat",
+    "nama_ar": "باب الصلاة",
+    "slug": "shalat",
+    "deskripsi": "Shalat fardhu, berjamaah, Jumat, qashar-jama', adzan, dan aurat dalam shalat."
+  },
+  {
+    "id": "01.03",
+    "parent_id": "01",
+    "level": 2,
+    "kode": "01.03",
+    "nama_id": "Jana'iz (Jenazah)",
+    "nama_ar": "باب الجنائز",
+    "slug": "janaiz",
+    "deskripsi": "Perawatan jenazah, shalat jenazah, pemakaman, dan ziarah kubur."
+  },
+  {
+    "id": "01.04",
+    "parent_id": "01",
+    "level": 2,
+    "kode": "01.04",
+    "nama_id": "Zakat, Infaq & Sedekah",
+    "nama_ar": "باب الزكاة والصدقة",
+    "slug": "zakat",
+    "deskripsi": "Zakat fitrah, zakat mal, zakat profesi, mustahiq, dan pengelolaan amil."
+  },
+  {
+    "id": "01.05",
+    "parent_id": "01",
+    "level": 2,
+    "kode": "01.05",
+    "nama_id": "Shiyam (Puasa & I'tikaf)",
+    "nama_ar": "باب الصيام",
+    "slug": "shiyam",
+    "deskripsi": "Puasa Ramadhan, pembatal puasa, fidyah, qadha', rukyatul hilal, dan i'tikaf."
+  },
+  {
+    "id": "01.06",
+    "parent_id": "01",
+    "level": 2,
+    "kode": "01.06",
+    "nama_id": "Haji & Umrah",
+    "nama_ar": "باب الحج والعمرة",
+    "slug": "haji-umrah",
+    "deskripsi": "Manasik, istitha'ah, dana talangan, badal haji, dam, dan haji lansia."
+  },
+  {
+    "id": "01.07",
+    "parent_id": "01",
+    "level": 2,
+    "kode": "01.07",
+    "nama_id": "Qurban, Aqiqah & Nadzar",
+    "nama_ar": "باب الأضحية والعقيقة",
+    "slug": "qurban-aqiqah",
+    "deskripsi": "Hewan qurban, patungan, distribusi daging, aqiqah, dan nadzar."
+  },
+
+  {
+    "id": "02",
+    "parent_id": null,
+    "level": 1,
+    "kode": "02",
+    "nama_id": "Al-Mu'amalat al-Maliyah (Ekonomi & Transaksi)",
+    "nama_ar": "كتاب المعاملات المالية",
+    "slug": "al-muamalat",
+    "deskripsi": "Jual beli, e-commerce, perbankan, fintech, kripto, ijarah, wakaf, dan waris."
+  },
+  {
+    "id": "02.01",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.01",
+    "nama_id": "Al-Buyu' (Jual Beli & E-Commerce)",
+    "nama_ar": "باب البيوع",
+    "slug": "al-buyu",
+    "deskripsi": "Akad jual beli, dropship, pre-order, marketplace, diskon, dan membership."
+  },
+  {
+    "id": "02.02",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.02",
+    "nama_id": "Perbankan, Riba & Asuransi",
+    "nama_ar": "باب الربا والمصارف والتأمين",
+    "slug": "perbankan-riba-asuransi",
+    "deskripsi": "Bunga bank, kredit, leasing, BPJS, asuransi syariah/konvensional, dan proteksi."
+  },
+  {
+    "id": "02.03",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.03",
+    "nama_id": "Fintech, Aset Digital & Kripto",
+    "nama_ar": "باب المعاملات الرقمية",
+    "slug": "fintech-aset-digital",
+    "deskripsi": "Cryptocurrency, emas digital/bullion, e-wallet, paylater, dan pinjaman online."
+  },
+  {
+    "id": "02.04",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.04",
+    "nama_id": "Ijarah, Upah & Ketenagakerjaan",
+    "nama_ar": "باب الإجارة والعمل",
+    "slug": "ijarah-ketenagakerjaan",
+    "deskripsi": "Sewa-menyewa, jasa digital, profesi, upah, dan hubungan industrial."
+  },
+  {
+    "id": "02.05",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.05",
+    "nama_id": "Syirkah, Mudharabah & Investasi",
+    "nama_ar": "باب الشركة والاستثمار",
+    "slug": "syirkah-investasi",
+    "deskripsi": "Kerjasama usaha, saham, reksadana, koperasi, dan bagi hasil."
+  },
+  {
+    "id": "02.06",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.06",
+    "nama_id": "Wakaf, Hibah & Wasiat",
+    "nama_ar": "باب الوقف والهبة والوصية",
+    "slug": "wakaf-hibah-wasiat",
+    "deskripsi": "Wakaf tunai, tukar guling (istibdal) wakaf, hibah, dan pengelolaan aset masjid."
+  },
+  {
+    "id": "02.07",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.07",
+    "nama_id": "Faraidh (Hukum Waris)",
+    "nama_ar": "باب الفرائض",
+    "slug": "faraidh",
+    "deskripsi": "Pembagian waris, ahli waris pengganti, wasiat wajibah, dan harta gono-gini."
+  },
+
+  {
+    "id": "03",
+    "parent_id": null,
+    "level": 1,
+    "kode": "03",
+    "nama_id": "Al-Ahwal asy-Syakhshiyah (Munakahat)",
+    "nama_ar": "كتاب الأحوال الشخصية والنكاح",
+    "slug": "al-munakahat",
+    "deskripsi": "Khitbah, akad nikah, wali, nafkah, talak, rujuk, nasab, dan keluarga."
+  },
+  {
+    "id": "03.01",
+    "parent_id": "03",
+    "level": 2,
+    "kode": "03.01",
+    "nama_id": "Khitbah & Akad Nikah",
+    "nama_ar": "باب الخطبة وعقد النكاح",
+    "slug": "khitbah-akad-nikah",
+    "deskripsi": "Syarat nikah, wali hakim, nikah siri, nikah daring, mahar, dan batas usia nikah."
+  },
+  {
+    "id": "03.02",
+    "parent_id": "03",
+    "level": 2,
+    "kode": "03.02",
+    "nama_id": "Nafkah & Kehidupan Rumah Tangga",
+    "nama_ar": "باب النفقة والمعاشرة",
+    "slug": "nafkah-rumah-tangga",
+    "deskripsi": "Hak dan kewajiban suami-istri, nafkah batin/lahir, poligami, dan KB."
+  },
+  {
+    "id": "03.03",
+    "parent_id": "03",
+    "level": 2,
+    "kode": "03.03",
+    "nama_id": "Talak, Khulu', Fasakh & Rujuk",
+    "nama_ar": "باب الطلاق والخلع والرجعة",
+    "slug": "talak-rujuk",
+    "deskripsi": "Talak lewat pesan elektronik, talak di luar pengadilan, iddah, dan rujuk."
+  },
+  {
+    "id": "03.04",
+    "parent_id": "03",
+    "level": 2,
+    "kode": "03.04",
+    "nama_id": "Nasab, Hadhanah & Anak",
+    "nama_ar": "باب النسب والحضانة",
+    "slug": "nasab-hadhanah",
+    "deskripsi": "Status anak luar nikah, tes DNA, pengasuhan anak, dan adopsi."
+  },
+
+  {
+    "id": "04",
+    "parent_id": null,
+    "level": 1,
+    "kode": "04",
+    "nama_id": "Al-Jinayat & Al-Qadha' (Pidana & Peradilan)",
+    "nama_ar": "كتاب الجنايات والقضاء",
+    "slug": "al-jinayat-qadha",
+    "deskripsi": "Pidana, korupsi, peradilan, kesaksian, sumpah, dan ganti rugi (dhaman)."
+  },
+  {
+    "id": "04.01",
+    "parent_id": "04",
+    "level": 2,
+    "kode": "04.01",
+    "nama_id": "Pidana, Kriminalitas & Korupsi",
+    "nama_ar": "باب الجنايات والحدود",
+    "slug": "pidana-korupsi",
+    "deskripsi": "Hukuman koruptor, kejahatan siber, pencemaran nama baik, dan kekerasan."
+  },
+  {
+    "id": "04.02",
+    "parent_id": "04",
+    "level": 2,
+    "kode": "04.02",
+    "nama_id": "Peradilan, Kesaksian & Sumpah",
+    "nama_ar": "باب القضاء والشهادات",
+    "slug": "peradilan-kesaksian",
+    "deskripsi": "Bukti digital, sumpah jabatan, hakim perempuan, dan penetapan hukum."
+  },
+  {
+    "id": "04.03",
+    "parent_id": "04",
+    "level": 2,
+    "kode": "04.03",
+    "nama_id": "Dhaman (Ganti Rugi) & Hak Milik",
+    "nama_ar": "باب الضمان والملكية",
+    "slug": "dhaman-hak-milik",
+    "deskripsi": "Hak kekayaan intelektual (HAKI), pembajakan, ghasab, dan kompensasi kerugian."
+  },
+
+  {
+    "id": "05",
+    "parent_id": null,
+    "level": 1,
+    "kode": "05",
+    "nama_id": "As-Siyasah & Al-Qanuniyah (Kenegaraan)",
+    "nama_ar": "كتاب السياسة الشرعية والقانونية",
+    "slug": "as-siyasah-qanuniyah",
+    "deskripsi": "Kepemimpinan, pemilu, pajak, regulasi negara, agraria, dan lingkungan hidup."
+  },
+  {
+    "id": "05.01",
+    "parent_id": "05",
+    "level": 2,
+    "kode": "05.01",
+    "nama_id": "Kepemimpinan, Pemilu & Kebangsaan",
+    "nama_ar": "باب الإمامة والوطنية",
+    "slug": "kepemimpinan-kebangsaan",
+    "deskripsi": "Status NKRI, kewajiban menaati pemerintah, pemilu, politik uang, dan demokrasi."
+  },
+  {
+    "id": "05.02",
+    "parent_id": "05",
+    "level": 2,
+    "kode": "05.02",
+    "nama_id": "Pajak, APBN & Kebijakan Publik",
+    "nama_ar": "باب الضرائب والسياسة العامة",
+    "slug": "pajak-kebijakan-publik",
+    "deskripsi": "Hukum pajak negara, subsidi, utang negara, dan distribusi anggaran publik."
+  },
+  {
+    "id": "05.03",
+    "parent_id": "05",
+    "level": 2,
+    "kode": "05.03",
+    "nama_id": "Agraria, Tambang & Lingkungan Hidup",
+    "nama_ar": "باب الأرض والبيئة",
+    "slug": "agraria-lingkungan",
+    "deskripsi": "Penguasaan tanah, alih fungsi lahan, pertambangan, dan fikih lingkungan (fiqhul bi'ah)."
+  },
+  {
+    "id": "05.04",
+    "parent_id": "05",
+    "level": 2,
+    "kode": "05.04",
+    "nama_id": "Hubungan Antarumat & Kemanusiaan",
+    "nama_ar": "باب المواطنة والعلاقات الإنسانية",
+    "slug": "antarumat-kemanusiaan",
+    "deskripsi": "Status non-muslim dalam negara bangsa (muwathin), toleransi, dan perdamaian dunia."
+  },
+
+  {
+    "id": "06",
+    "parent_id": null,
+    "level": 1,
+    "kode": "06",
+    "nama_id": "Al-Aqidah, Tashawwuf & Al-Akhlaq",
+    "nama_ar": "كتاب العقيدة والتصوف والأخلاق",
+    "slug": "al-aqidah-akhlaq",
+    "deskripsi": "Aqidah Aswaja, metodologi istinbath, tradisi pesantren, etika, dan dakwah."
+  },
+  {
+    "id": "06.01",
+    "parent_id": "06",
+    "level": 2,
+    "kode": "06.01",
+    "nama_id": "Aqidah, Pemikiran & Manhaj",
+    "nama_ar": "باب العقيدة والمنهج",
+    "slug": "aqidah-manhaj",
+    "deskripsi": "Teologi Aswaja, i'adatun nazhar, bermazhab, dan menyikapi paham menyimpang."
+  },
+  {
+    "id": "06.02",
+    "parent_id": "06",
+    "level": 2,
+    "kode": "06.02",
+    "nama_id": "Tradisi Keagamaan & Budaya Lokal",
+    "nama_ar": "باب العادات والتقاليد",
+    "slug": "tradisi-budaya",
+    "deskripsi": "Tahlilan, maulid, haul, ziarah, adab pesantren, dan akulturasi budaya."
+  },
+  {
+    "id": "06.03",
+    "parent_id": "06",
+    "level": 2,
+    "kode": "06.03",
+    "nama_id": "Etika Sosial, Kritik & Media Sosial",
+    "nama_ar": "باب الآداب الاجتماعية والإعلام",
+    "slug": "etika-media-sosial",
+    "deskripsi": "Ghibah digital, kritik lembaga/pejabat, hoaks, dan etika berdakwah di medsos."
+  },
+
+  {
+    "id": "07",
+    "parent_id": null,
+    "level": 1,
+    "kode": "07",
+    "nama_id": "Al-Qadhaya al-Mu'ashirah (Kontemporer)",
+    "nama_ar": "كتاب القضايا المعاصرة",
+    "slug": "qadhaya-muashirah",
+    "deskripsi": "Bioetika medis, kehalalan produk modern, AI & teknologi, serta pendidikan."
+  },
+  {
+    "id": "07.01",
+    "parent_id": "07",
+    "level": 2,
+    "kode": "07.01",
+    "nama_id": "Medis, Kesehatan & Bioetika",
+    "nama_ar": "باب الطب والأخلاقيات الحيوية",
+    "slug": "medis-bioetika",
+    "deskripsi": "Vaksin, transplantasi organ, bayi tabung, operasi estetika, IUFD, dan euthanasia."
+  },
+  {
+    "id": "07.02",
+    "parent_id": "07",
+    "level": 2,
+    "kode": "07.02",
+    "nama_id": "Makanan, Minuman & Produk Halal",
+    "nama_ar": "باب الأطعمة والأشربة",
+    "slug": "makanan-halal",
+    "deskripsi": "Istihalah, gelatin, alkohol dalam makanan/kosmetik, dan penyembelihan modern."
+  },
+  {
+    "id": "07.03",
+    "parent_id": "07",
+    "level": 2,
+    "kode": "07.03",
+    "nama_id": "Teknologi Informasi, AI & Ruang Digital",
+    "nama_ar": "باب التكنولوجيا والذكاء الاصطناعي",
+    "slug": "teknologi-ai",
+    "deskripsi": "Kecerdasan buatan (AI), privasi data, game online, konten digital, dan monetisasi."
+  },
+  {
+    "id": "07.04",
+    "parent_id": "07",
+    "level": 2,
+    "kode": "07.04",
+    "nama_id": "Pendidikan, Al-Qur'an & Kebudayaan",
+    "nama_ar": "باب التعليم والقرآن",
+    "slug": "pendidikan-alquran",
+    "deskripsi": "Adab menghafal Al-Qur'an, mushaf digital, seni musik, dan dunia pendidikan."
+  }
+]

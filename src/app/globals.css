@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+:root {
+  --bg-page: #faf8f3;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f2eee4;
+  --border-soft: #e5dfd1;
+  --ink-primary: #1b241f;
+  --ink-secondary: #536058;
+  --emerald-brand: #0d6b47;
+  --emerald-dark: #094f34;
+  --emerald-soft: #e8f5ef;
+  --gold-accent: #b8862d;
+  --gold-soft: #fbf4e4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--ink-primary);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif-title {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.font-arabic {
+  font-family: var(--font-arabic), "Amiri", "Traditional Arabic", serif;
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+/* Subtle Islamic geometric header pattern with rich Nusantara emerald base */
+.pattern-nusantara {
+  background-color: #0d6b47;
+  background-image: radial-gradient(
+      circle at 18% 20%,
+      rgba(212, 162, 67, 0.18) 0,
+      transparent 48%
+    ),
+    radial-gradient(
+      circle at 86% 28%,
+      rgba(255, 255, 255, 0.08) 0,
+      transparent 44%
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.03) 0px,
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px,
+      transparent 18px
+    ),
+    linear-gradient(135deg, #0d6b47 0%, #0a583a 55%, #073f2a 100%);
+}
+
+/* Live Fatwa Reader typography */
+.fatwa-reader-content {
+  line-height: 1.85;
+  color: var(--ink-primary);
+}
+
+.fatwa-reader-content h1,
+.fatwa-reader-content h2,
+.fatwa-reader-content h3,
+.fatwa-reader-content h4 {
+  font-family: var(--font-serif), Georgia, serif;
+  font-weight: 700;
+  color: #113526;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.35;
+}
+
+.fatwa-reader-content h2 {
+  font-size: 1.35em;
+  border-bottom: 1px solid var(--border-soft);
+  padding-bottom: 0.35rem;
+}
+
+.fatwa-reader-content h3 {
+  font-size: 1.15em;
+}
+
+.fatwa-reader-content p {
+  margin-bottom: 1rem;
+}
+
+.fatwa-reader-content ul,
+.fatwa-reader-content ol {
+  margin: 0.75rem 0 1.15rem 1.35rem;
+}
+
+.fatwa-reader-content ul {
+  list-style-type: disc;
+}
+
+.fatwa-reader-content ol {
+  list-style-type: decimal;
+}
+
+.fatwa-reader-content li {
+  margin-bottom: 0.45rem;
+}
+
+.fatwa-reader-content blockquote {
+  border-left: 3px solid var(--gold-accent);
+  background: #fbf8f1;
+  padding: 0.9rem 1.1rem;
+  border-radius: 0.5rem;
+  margin: 1.1rem 0;
+}
+
+.fatwa-reader-content .arabic-ibarat {
+  font-family: var(--font-arabic), "Amiri", serif;
+  direction: rtl;
+  text-align: right;
+  font-size: 1.38em;
+  line-height: 2.25;
+  background: #f5f9f6;
+  border-right: 4px solid var(--emerald-brand);
+  border-left: none;
+  padding: 1rem 1.25rem;
+  border-radius: 0.65rem;
+  margin: 1.15rem 0;
+  color: #102a1f;
+}
+
+.fatwa-reader-content a {
+  color: var(--emerald-brand);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Dark Reading Mode for Fatwa Reader */
+.reader-dark {
+  background-color: #141c18 !important;
+  color: #e6ece8 !important;
+  border-color: #26352d !important;
+}
+
+.reader-dark .fatwa-reader-content {
+  color: #e2e8e4;
+}
+
+.reader-dark .fatwa-reader-content h1,
+.reader-dark .fatwa-reader-content h2,
+.reader-dark .fatwa-reader-content h3,
+.reader-dark .fatwa-reader-content h4 {
+  color: #a9e5c7;
+  border-color: #293a31;
+}
+
+.reader-dark .fatwa-reader-content blockquote {
+  background: #1b2620;
+  border-left-color: #d4a243;
+}
+
+.reader-dark .fatwa-reader-content .arabic-ibarat {
+  background: #192922;
+  border-right-color: #34a874;
+  color: #edf5f0;
+}
+
+/* Scrollbar polish */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cfc7b5;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}

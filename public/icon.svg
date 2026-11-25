@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#0d6b47"/>
+  <rect x="24" y="24" width="464" height="464" rx="92" stroke="#d4a243" stroke-width="8" stroke-opacity="0.55"/>
+  <!-- Eight-point Rub el Hizb subtle emblem -->
+  <g transform="translate(256 232)">
+    <rect x="-112" y="-112" width="224" height="224" rx="22" stroke="#d4a243" stroke-width="6" stroke-opacity="0.35"/>
+    <rect x="-112" y="-112" width="224" height="224" rx="22" transform="rotate(45)" stroke="#d4a243" stroke-width="6" stroke-opacity="0.35"/>
+  </g>
+  <!-- Open Kitab silhouette -->
+  <path d="M124 188C124 176 134 168 146 170C188 176 226 190 256 212C286 190 324 176 366 170C378 168 388 176 388 188V338C388 349 380 357 369 359C328 365 290 378 262 397C258 400 254 400 250 397C222 378 184 365 143 359C132 357 124 349 124 338V188Z" fill="#faf8f3"/>
+  <path d="M256 212V398" stroke="#0d6b47" stroke-width="10" stroke-linecap="round"/>
+  <path d="M162 222C190 227 215 236 234 248" stroke="#0d6b47" stroke-width="9" stroke-linecap="round" stroke-opacity="0.55"/>
+  <path d="M162 260C190 265 215 274 234 286" stroke="#0d6b47" stroke-width="9" stroke-linecap="round" stroke-opacity="0.4"/>
+  <path d="M162 298C190 303 215 312 234 324" stroke="#0d6b47" stroke-width="9" stroke-linecap="round" stroke-opacity="0.3"/>
+  <path d="M350 222C322 227 297 236 278 248" stroke="#b8862d" stroke-width="9" stroke-linecap="round" stroke-opacity="0.8"/>
+  <path d="M350 260C322 265 297 274 278 286" stroke="#b8862d" stroke-width="9" stroke-linecap="round" stroke-opacity="0.6"/>
+  <path d="M350 298C322 303 297 312 278 324" stroke="#b8862d" stroke-width="9" stroke-linecap="round" stroke-opacity="0.45"/>
+  <!-- Top Crescent & Star accent -->
+  <circle cx="256" cy="126" r="14" fill="#d4a243"/>
+</svg>
